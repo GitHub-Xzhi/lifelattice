@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "LifeLattice",
+    "description": "看剩幾天去了",
+    "version": "0.0.1",
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
