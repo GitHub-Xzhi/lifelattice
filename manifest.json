@@ -1,0 +1,16 @@
+{
+  "name": "Life Lattice",
+  "version": "1",
+  "description": "快速了解快去了沒",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "img/icon.png"
+    }
+  },
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  }
+}
